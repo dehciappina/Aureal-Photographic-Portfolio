@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd' [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg enable-background="new 0 0 1000 1000" version="1.1" viewBox="0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<switch>
+	<foreignObject width="1" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/">
+	</foreignObject>
+	<g>
+		<path class="st0" d="m678.6 249l-439.7-0.1v-75.6c0-15.3-17.8-23.8-29.7-14.2l-177.6 143.3c-10.6 8.6-10.7 24.8 0 33.4l177.6 144c11.9 9.7 29.7 1.2 29.7-14.2v-76h439.7c86.8 0 157.2 70.4 157.2 157.2s-70.4 157.2-157.2 157.2h-47.6c-12.9 0-23.4 10.5-23.4 23.4v94c0 12.9 10.5 23.4 23.4 23.4l47.8-0.1c164.4-0.2 297.5-133.4 297.6-297.8 0.1-164.3-133.2-297.8-297.8-297.9z"/>
+	</g>
+</switch>
+</svg>
