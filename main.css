@@ -110,8 +110,24 @@ input:focus, textarea:focus {
             text-align: center !important;
         }
 
-        .about_info, .contact_info {
+        .about_info {
             background: rgba(255,255,255,0.7);
+            padding: 4%;
+        }
+
+        .about_info img {
+            width: 100%;
+            margin: 3vh 0;
+            border-radius: 5px;
+            box-shadow: 0 0 0 6px #CCC;
+        }
+
+        .contact_info {
+            background: rgba(0,0,0,0.9);
+            padding: 7% 5% 2% 5%;
+        }
+
+        .about_info, .contact_info {
             position: fixed;
             top: 0;
             right: 0;
@@ -121,7 +137,6 @@ input:focus, textarea:focus {
                 -ms-transform: translateX(100%);
                     transform: translateX(100%);
             color: #333;
-            padding: 4%;
             overflow: auto;
             -webkit-transition:0.7s cubic-bezier(0.4, 0.4, 0.29, 1);
             -o-transition:0.7s cubic-bezier(0.4, 0.4, 0.29, 1);
@@ -146,6 +161,10 @@ input:focus, textarea:focus {
             margin-bottom: 2%;
         }
 
+        .contact_info p {
+            color:#eee;
+        }
+
         .about_info p {
             text-align: right;
         }
@@ -164,9 +183,9 @@ input:focus, textarea:focus {
             height: 5vh;
             margin-bottom: 5vh;
             border: none;
-            background: #333;
+            background: #ddd;
             padding-left: 10px;
-            color: white;
+            color: #222;
         }
 
         .contact_info form textarea {
@@ -175,17 +194,21 @@ input:focus, textarea:focus {
             display: flex;
             width: 50%;
             height: 30%;
-            background: #333;
-            color: white;
+            background: #ddd;
+            color: #222;
             padding: 10px 0 0 10px;
             border: none;
+        }
+
+        .contact_info svg {
+            fill:white;
         }
 
         #submit {
             cursor: pointer;
             padding: 0;
-            background: #bbb;
-            color: #222;
+            background: #333;
+            color: #eee;
             -webkit-transition: 0.4s ease;
             -o-transition: 0.4s ease;
             transition: 0.4s ease;
@@ -320,6 +343,7 @@ input:focus, textarea:focus {
         top: 0;
         bottom: 0;
         left: 27%;
+        height: 100%;
         display: -webkit-inline-box;
         display: -ms-inline-flexbox;
         display: inline-flex;
