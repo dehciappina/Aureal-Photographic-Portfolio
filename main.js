@@ -19,7 +19,7 @@ urlList = [
 
     'https://images.unsplash.com/photo-1522968612903-47b4f32c995c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d6e116cd16fd3adc9a775b999f590417&auto=format&fit=crop&w=1900&q=80',
 
-    'https://images.unsplash.com/photo-1525536442945-13bd56f1f3ce?ixlib=rb-0.3.5&s=b081e7cc70e86942d11ff93f24d9e77e&auto=format&fit=crop&w=750&q=80',
+    'https://images.unsplash.com/photo-1525514141732-08da15eef5ef?ixlib=rb-0.3.5&s=2e0216f8f823c345e48e75865164c6ef&auto=format&fit=crop&w=2134&q=80',
 
     'https://images.unsplash.com/photo-1493807742375-fbc46d996e8f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f0038573a81b1169576b6674a3ce202&auto=format&fit=crop&w=776&q=80',
 
@@ -42,16 +42,6 @@ urlList = [
 ]
 
 var urlListUpdate = 0
-
-// DEFINITION OF SRC=""
-
-$(document).find('.fibona1 img').attr('src', urlList[0])
-$(document).find('.fibona2 img').attr('src', urlList[1])
-$(document).find('.fibona3 img').attr('src', urlList[2])
-$(document).find('.fibona4 img').attr('src', urlList[3])
-$(document).find('.fibona5 img').attr('src', urlList[4])
-$(document).find('.fibona6 img').attr('src', urlList[5])
-
 
 function setImgs() {
 
