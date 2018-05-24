@@ -15,7 +15,7 @@ body {
     background-attachment: fixed;
     overflow: hidden;
     z-index: -4;
-    background:#111;
+    background:#000;
 }
 
 
@@ -392,17 +392,26 @@ button:focus {
     bottom: 0;
 }
 
+    .fibona1 img {
+        transition:0.4s;
+    }
+
 .fibona2 {
     right: 0;
     left: 61.8%;
     top: 0;
     bottom: 38.2%;
 }
+    
+    .fibona2 img, .fibona3 img, .fibona4 img, .fibona5 img, .fibona6 img {
+        transition:0.6s ease;
+    }
 
 .fibona3 {
     bottom: 0;
     top: 61.8%;
     left: 76.4%;
+    right: 0;
 }
 
 .fibona4 {
@@ -448,9 +457,50 @@ button:focus {
        object-position: center;
 }
 
+
+        .show {
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+
+        .hide {
+            visibility: hidden;
+            opacity: 0;
+            z-index: -3 !important;
+        }
+
+        .fibona6_out {
+            transform: translate(-100%);
+            visibility: hidden;
+            opacity:0;
+        }
+
+        .fibona2_out {
+            visibility: hidden;
+            opacity:0;
+            transform: translate(-100%) scale(1.618);
+            transform-origin: top right;
+        }
+
+        .fibona3_out {
+            transform: translateY(-100%);
+            visibility: hidden;
+            opacity:0;
+        }
+
+        .fibona4_out {
+            transform: translate(100%);
+            visibility: hidden;
+            opacity:0;
+        }
+
+        .fibona5_out {
+            transform: translateY(100%);
+            visibility: hidden;
+            opacity:0;
+        }
+
 .section:hover {
-    -webkit-filter:brightness(1.1);
-            filter:brightness(1.1);
 }
 
 .full_mode:hover {
@@ -462,6 +512,7 @@ button:focus {
     -webkit-transition: 0.4s cubic-bezier(0.6, 0.38, 0.53, 0.85);
     -o-transition: 0.4s cubic-bezier(0.6, 0.38, 0.53, 0.85);
     transition: 0.4s cubic-bezier(0.6, 0.38, 0.53, 0.85);
+    z-index: 10;
 }
 
 .full_mode {
@@ -530,6 +581,11 @@ button:focus {
     left: 0;
 }
 
+.main_img_back {
+    top: 10%;
+    left: 0;
+}
+
 .fibona2_arrow {
     right: 0;
     top: 0;
@@ -553,8 +609,8 @@ button:focus {
 
 .sec_icon  {
     position: absolute;
-    z-index: 10;
-    width: 5vh;
+    z-index: 12;
+    width: 7vh;
     padding: 1vh;
     opacity: 0.5;
     margin: 0 auto;
