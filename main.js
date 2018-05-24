@@ -1,10 +1,6 @@
 
 $( document ).ready(function() {
 
-    $(function() {
-        $('.lazy').Lazy();
-    });
-
 urlList = [
 
     'https://images.unsplash.com/photo-1505325681473-5e712b2eadca?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=42268883c25739c07af3d28d8f2030de&auto=format&fit=crop&w=1934&q=80',
